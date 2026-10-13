@@ -1,0 +1,19 @@
+{
+  "name": "resenas-service",
+  "version": "1.0.0",
+  "description": "Microservicio de solo lectura para la colección resenas",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0"
+  }
+}
