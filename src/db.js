@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 
 const uri = process.env.MONGODB_URI;
-const dbName = process.env.MONGODB_DB || 'resenas';
+const dbName = process.env.MONGODB_DB || 'reseñas';
 export const COLLECTION = 'resenas';
 
 if (!uri) {
