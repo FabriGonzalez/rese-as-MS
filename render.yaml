@@ -10,7 +10,7 @@ services:
       - key: MONGODB_URI
         sync: false
       - key: MONGODB_DB
-        value: reseñas
+        value: resenas
       - key: SERVICE_NAME
         value: resenas-service
       - key: NODE_VERSION
