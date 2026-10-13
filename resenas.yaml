@@ -17,8 +17,8 @@ info:
 servers:
 - url: http://localhost:3000
   description: Local
-- url: https://TU-SERVICIO.onrender.com
-  description: Render (reemplazar por tu URL)
+- url: https://resenas-service.onrender.com
+  description: Render
 tags:
 - name: Servicio
   description: Estado del servicio
